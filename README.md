@@ -1,0 +1,7 @@
+# Rocket League Reinforcement Learning
+
+## Core 1.9.0 - 19/03/2023
+
+This Rocket League Reinforcement Learning repository contains code for training a reinforcement learning model to play Rocket League using the RL-Gym framework. The core1_9_0.py script is the main code for training the model, which loads settings, sets up the environment and reward function, and trains a PPO model using RL-Gym. To use this repository, you'll need to have Rocket League and RLBot framework installed and set up to use the core1_9_0.py script as the bot for training.
+
+In addition to the core script, this repository also includes several classes that that implementi reinforcement learning for the agent/bot. The RLDiscreteAction class implements a discrete action space agent that uses a neural network for action prediction and Q-learning for weight updates. The PenalizedReward and NormalReward classes implement a reward function that combines individual rewards, applies a penalty, and saves and compares the maximum saved value. The Terminal Condition class includes a CustomTerminalCondition class that can be used to define specific conditions for terminating a game, such as driving in circles, scoring in the player's goal, touching the ball five times, or making a shot on goal. To use these classes, simply import the necessary modules and create an instance of the desired class in your main program.

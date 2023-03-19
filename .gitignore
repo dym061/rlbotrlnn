@@ -1,0 +1,12 @@
+# old versions and files
+old/
+
+# support helpers for quick tasks
+support/
+
+# files generated on run that can be deleted
+/log
+/rewards.csv
+/reward_ar.txt
+/reward_cr.txt
+/reward_pr.txt
